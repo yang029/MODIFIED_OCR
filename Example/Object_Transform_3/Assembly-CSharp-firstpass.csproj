@@ -1,0 +1,860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A69E9674-672D-243A-2705-F2DA27EA9243}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_20;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_WINRT;PLATFORM_METRO;UNITY_METRO;UNITY_METRO_API;UNITY_WSA;UNITY_WSA_10_0;UNITY_WINRT_10_0;UNITY_WINRT;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;CURL_STATICLIB;PLATFORM_OVERRIDES_APPLICATION_PACKAGE_NAME;PLATFORM_IMPLEMENTS_ATTACH_DIALOG;DISABLE_PLUGIN_LOAD_WRAPPER;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
+    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
+    <UnityVersion>2019.4.20f1c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Unity Editor\Unity 2019.4.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Unity Editor\Unity 2019.4.2f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Highlighter.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlighterBlocker.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlightingBlitter.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\HighlightingRenderer.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\EndOfFrame.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlighterCore.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlighterRenderer.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlightingBase.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\HighlightingPreset.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\MaterialExtensions.cs" />
+    <Compile Include="Assets\Plugins\HighlightingSystem\Scripts\Internal\ShaderPropertyID.cs" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingBlur.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingComposite.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingCut.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingOpaque.shader" />
+    <None Include="Assets\Plugins\HighlightingSystem\Resources\HighlightingTransparent.shader" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/PackageCache/com.ptc.vuforia.engine@8.5.9/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:/Unity Editor/Unity 2019.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaScripts">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.WindowsMR.Editor">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.WindowsMR">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/ZXT/Object_Manipulation/Object_Transform_3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
+      <Project>{7D042E57-88EE-178F-29FC-4EB9BB29469A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
+      <Project>{3F9C6FF9-A49B-8608-D3D8-7402278C4096}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj">
+      <Project>{6328F78A-B2D0-442F-2D1A-D56E90E0237D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
+      <Project>{033D5D5F-507F-6331-DE87-998A0C0F7FCD}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService.csproj">
+      <Project>{7824DCA4-B17F-A291-BA12-0A22A17EE802}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.csproj">
+      <Project>{820C9A1E-7E86-F3B2-D11C-3003B2415C37}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
+      <Project>{E04DB8EB-286D-4477-6625-651992DA7F96}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Async</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
+      <Project>{29AA5E99-EFD8-5FF3-D717-345EB33C5CC6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
+      <Project>{863556E8-9341-6D55-11C5-3EF7E4EBE493}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
+      <Project>{26CF77FA-347E-00A9-4F5C-72F3E2F97765}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
+      <Project>{36D20031-9B32-522C-DFDB-4D414FD6E0D7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
+      <Project>{70051EFF-8BF4-A0A5-2038-393D12D2EF71}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
+      <Project>{DD683374-BBD0-DE5C-E454-3B82E2DD04A7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Tools.Runtime.csproj">
+      <Project>{396EE4AE-D127-189F-A18F-B4411294743E}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Tools.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
+      <Project>{DBD4D234-257B-2D92-0430-F5F2E189EBD6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
+      <Project>{DFBC6331-0AC0-475D-3950-9DCB2BB76203}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.csproj">
+      <Project>{BFA5FF42-6C11-7B54-717E-DAC08AE9F375}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
+      <Project>{081D8E56-DDF0-38F9-CB6D-999B7E00EE9A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
+      <Project>{0A06A4DF-A77A-9344-B279-30A29D0C529F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
+      <Project>{82FF12AB-764E-CE55-C1DE-F2C8E035181A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
+      <Project>{077FA8CB-C12E-83F0-6034-59B828B52108}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
+      <Project>{025F087D-93A0-0789-2F29-6051F40EF00D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
+      <Project>{211FF6AB-2483-3F3B-1A52-24EE1B611A45}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
+      <Project>{EB8DD77F-AB55-6E27-AE05-BEFB9ADB2BA4}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
+      <Project>{6E3C2F73-2AE5-1A7F-72E6-DC60E2B7BAEF}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
+      <Project>{CA2595B5-A38A-E2D0-4628-CFF06265FD65}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenVR.csproj">
+      <Project>{56869DC0-0C9C-A5B3-3301-E6D624523061}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.OpenVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
+      <Project>{2E8ED058-9EC8-10E3-0610-75329AA74711}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
+      <Project>{9EF87DB4-689E-800C-4AF3-ACCE72EA2492}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
+      <Project>{D6B74750-FDC7-D5EA-9080-6907DAD9A2F7}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
+      <Project>{D941A6EE-EEBC-5268-77D2-4DDD476BC68B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
+      <Project>{F44D7E27-D1F5-8D81-619E-B94016DFD90B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
+      <Project>{33AA9C1F-BCB8-777A-3C40-E5CEAB2FCEE6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
+      <Project>{F70DCA41-217A-333F-FD94-5F5386F62CB4}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
+      <Project>{6AE44ECA-AC8C-C42B-0822-0B3B769FFFFB}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
+      <Project>{EDA02A83-B928-5711-D1D4-A7EBD7CC42AC}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
+      <Project>{25045EAB-B87A-63B1-5FA9-98ED5DFA9120}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
+      <Project>{EC0F130B-C198-42A8-9A56-BFF227F55F39}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
+      <Project>{C2E469AF-B4E1-2DFA-FD55-09422A27E0AF}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
+      <Project>{C8D19483-9F04-1A93-FC5A-BFCFCB7DF345}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
+      <Project>{CC6FEC91-8BE0-482E-7243-329F59460827}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
+      <Project>{8A8E2F3A-30AA-3489-AB3F-3B877463B3E2}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
+      <Project>{12608F52-2BC4-07CB-FB62-19FE0C1F479A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.BoundarySystem.csproj">
+      <Project>{DF5312DC-37B8-09D4-33A4-0078D38D7AF5}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.BoundarySystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.csproj">
+      <Project>{C101A487-766C-FC1F-B3FE-DBDDE8CD61B0}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.HandPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
+      <Project>{DE07C164-F294-B94E-47D1-9994C785E9F2}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor.csproj">
+      <Project>{BB651941-607B-9A4A-30D8-7142BA8EC6AC}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Extensions.Tracking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
+      <Project>{74A42A6D-63AA-224F-928B-B7E07C0F2AD4}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

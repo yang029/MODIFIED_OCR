@@ -1,0 +1,6 @@
+#include "il2cpp-config.h"
+#include "D:\ZXT\Object_Manipulation\Object_Transform_3\Build\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\BlobReader.cpp"
+#include "D:\ZXT\Object_Manipulation\Object_Transform_3\Build\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\Debugger.cpp"
+#include "D:\ZXT\Object_Manipulation\Object_Transform_3\Build\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeDelegateMethodCache.cpp"
+#include "D:\ZXT\Object_Manipulation\Object_Transform_3\Build\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\NativeSymbol.cpp"
+#include "D:\ZXT\Object_Manipulation\Object_Transform_3\Build\Il2CppOutputProject\IL2CPP\libil2cpp\vm-utils\VmStringUtils.cpp"
